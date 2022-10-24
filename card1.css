@@ -1,0 +1,70 @@
+body{
+    Background-color: black;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        border: 2px solid red;
+        padding: 80px;
+        gap:0px;
+        }
+        
+       
+        #one{
+        background-color: hsl(31,77%,52%);
+        height: 70vh;
+        width: 20vw;
+        border: none;
+        text-align:none;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: Lexend Deca;
+        font-size: 15px;
+        padding-left: 7ch;
+        padding-right:7ch;
+        }
+        
+        #two{
+            background-color: hsl(184, 100%,22%);
+            height: 70vh;
+            width: 20vw;
+            border: none;
+            text-align: none;
+            color: white;
+            font-size: 15px;
+            padding-left: 7ch;
+            padding-right:7ch;
+        
+            }
+
+            #three{
+                background-color: hsl(179,100%,13%);
+                height: 70vh;
+                width: 20vw;
+                border: none;
+                text-align: none;
+                color: white;
+                font-size: 15px;
+                padding-left: 7ch;
+                padding-right:7ch;
+        
+                }
+
+                p{
+                    color:hsla(0, 0%, 100% 0.75);
+                    text-align: none;
+                }
+
+                .button{
+                    background-color:hsl(0, 0%,95%);
+                    border-radius: 10px;
+                    border: none;
+                    width: 100px;
+                    height: 30px;
+                    color: green;
+                    
+
+                }
+
+
+                
