@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Login.css">
+    
+</head>
+<body>
+   <center> <header> <h1> LOGIN</h1></header></center>
+
+    <main>
+      <center> <div class="form"><form action="action_page.php" method="post">
+        <div class="container">
+            <label for="Email"> Email</label><br>
+            <input type="text" id="Email" placeholder="Enter Email" name="Email" required ><br><br>
+            
+            <label for="Pword"> Password</label><br>
+            <input type="password" id="Email" placeholder=" Enter Password" name="Password" required ><br><br>
+
+            <input type="button" value="Login" onclick="location.href = 'Success.html';">
+            <label> <input type="checkbox" checked="checked" name="remember"> Remember me</label>
+        </div>
+
+        <div class="container"  style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn"> Cancel</button>
+            <span class="pword"> Forgot <a href="#"> password?</a></span>
+            </div>   
+        </form> </div></center>
+        
+
+        
+    </main>
+    
+</body>
+</html>

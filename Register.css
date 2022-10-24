@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, helvetica, sans-serif;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=Tel], input[type= date], input[type=Radio]
+{
+    width:100%;
+    padding: 12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+}
+
+.form{
+    Background-color:rgb(124, 173, 124);
+    font-size: 20px;
+    border: 3px solid black;
+    width: 700px;
+    height: 625px;
+    text-align: none;
+    margin: auto;
+
+}
+
+#button{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    text-decoration:none;
+
+}
+
+h1, p{
+    color: blue;
+    Text-align:center;
+    font-weight: 10em;
+
+    
+}
